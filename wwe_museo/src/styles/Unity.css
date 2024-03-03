@@ -1,0 +1,70 @@
+/* Estilos para la simulación de Unity */
+.unity-simulation {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+  
+  .unity-simulation h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: "Dosis", sans-serif;
+  }
+  
+  .unity-simulation p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Dosis", sans-serif;
+  }
+  
+  /* Estilos para la sección de créditos de los creadores */
+  .credits {
+    margin-top: 20px;
+  }
+  
+  .creators-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .creator {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .creator p {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  .redirect-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .redirect-button button {
+    background-color: #fbd61c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10%;
+  }
+  
+  .redirect-button button:hover {
+    background-color: #000000;
+  }
+  
+  .containerunity{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+  }

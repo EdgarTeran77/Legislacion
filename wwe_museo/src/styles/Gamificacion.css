@@ -1,0 +1,98 @@
+/* Gamificacion.css */
+
+/* Estilos generales */
+.gamificacion-section {
+    padding: 20px;
+  }
+  
+  .dosis-gami {
+    width: 20%;
+    font-family: "Dosis", sans-serif;
+    height: 2%;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: #f6ed38;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: -3%;
+  }
+  
+  
+  .dosis-gami2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    font-family: "Dosis", sans-serif;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 39%;
+  }
+  
+  .juegos-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .juego {
+    width: 30%;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: "Dosis", sans-serif;
+  }
+  
+  .juego h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .juego p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos de botones */
+  .juego-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .espacio1{
+    margin-top: 6%;
+  }
+
+  .juego-button:hover {
+    background-color: #333;
+  }
+  
+  .text{
+    text-align: justify;
+    padding: 5%;
+    width: 25%;
+    height: 8%;
+    left: 54%;
+    top: 23%;
+    border-radius: 10px;
+    position: absolute;
+    border-color: rgba(0,0,0,0.8);
+    align-items: center;
+    justify-content: center;
+    font-family: "Dosis", sans-serif;
+    font-size: 18px;
+  }
+  .flecha{
+    width: 11%;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+  }
