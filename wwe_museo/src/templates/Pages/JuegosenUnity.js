@@ -51,17 +51,15 @@ const JuegosUnity = () => {
           recursos multimedia que ayudan a comprender mejor los conceptos
           científicos.
         </p>
-        {/* Agrega más detalles sobre la simulación aquí */}
+
       </div>
 
-      {/* Botón de redirección */}
       <div className="redirect-button">
         <button onClick={redirectToMuseum}>
           Visitar el Museo de Ciencias de la Tierra
         </button>
       </div>
 
-      {/* Créditos de los creadores */}
       <div className="containerunity">
         <div className="credits">
           <h2>Creado por:</h2>
@@ -70,26 +68,23 @@ const JuegosUnity = () => {
               <p>Nombre: Steven Erraez</p>
               <p>Correo: seerraez@uce.edu.ec</p>
             </div>
-            {/* Resto de creadores */}
           </div>
         </div>
         <div className="credits">
           
           <div className="creators-gallery">
             <div className="creator">
-              <p>Nombre: Steven Erraez</p>
-              <p>Correo: seerraez@uce.edu.ec</p>
+              <p>Nombre: Kevin Andrade</p>
+              <p>Correo: kjandradec@uce.edu.ec</p>
             </div>
-            {/* Resto de creadores */}
           </div>
         </div>
         <div className="credits">
           <div className="creators-gallery">
             <div className="creator">
-              <p>Nombre: Steven Erraez</p>
-              <p>Correo: seerraez@uce.edu.ec</p>
+              <p>Nombre: Edgar Teran</p>
+              <p>Correo: ewteran@uce.edu.ec</p>
             </div>
-            {/* Resto de creadores */}
           </div>
         </div>
 
@@ -101,12 +96,11 @@ const JuegosUnity = () => {
             <a href="https://www.facebook.com">
               <AiFillFacebook />
             </a>
-            {/* Resto de enlaces... */}
           </div>
           <div className="informacion">
-            <p>Correo electrónico: info@museociencias.com</p>
-            <p>Teléfono: +1234567890</p>
-            <p>Dirección: Av. Principal #123, Ciudad, País</p>
+            <p>Correo electrónico: museo.figempa@uce.edu.ec</p>
+            <p>Empresa: INGENIERIA EN GEOLOGIA MINAS PETROLEOS Y AMBIENTAL</p>
+            <p>Departamento: Museo</p>
           </div>
         </div>
       </footer>

@@ -86,6 +86,34 @@
   top: 15%;
 }
 
+.dosis-fontvision {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500; /* Puedes ajustar el peso según lo necesites */
+  font-style: normal;
+  font-size: 1.5rem;
+  background-color: rgba(255, 230, 0, 0.897);
+  border-radius: 10px;
+  padding: 10%;
+  padding-left: 16%;
+  padding-right: 16%;
+  margin-left: -4.8%;
+  top: 5%;
+}
+
+.dosis-fontmision {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500; /* Puedes ajustar el peso según lo necesites */
+  font-style: normal;
+  font-size: 1.5rem;
+  background-color: rgba(255, 230, 0, 0.897);
+  border-radius: 10px;
+  padding: 10%;
+  padding-left: 14.5%;
+  padding-right: 14.5%;
+  top: 15%;
+}
 
 .dosis-font2 {
   font-family: "Dosis", sans-serif;
@@ -169,6 +197,15 @@
   text-align: justify; /* Alinea el texto justificado */
   font-family: "Dosis", sans-serif;
   margin-top: 10%;
+}
+.contenedor3 {
+  width: 60%;
+  height: 30%;
+  background-color:white;
+  margin-left: 20px; /* Agrega un margen izquierdo para separar del título */
+  text-align: justify; /* Alinea el texto justificado */
+  font-family: "Dosis", sans-serif;
+  margin-top: 5%;
 }
 
 .contenedor2 {

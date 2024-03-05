@@ -1,9 +1,13 @@
 /* Gamificacion.css */
+body {
+  overflow-x: hidden;
+}
 
 /* Estilos generales */
 .gamificacion-section {
     padding: 20px;
   }
+  
   
   .dosis-gami {
     width: 20%;
@@ -90,6 +94,22 @@
     font-family: "Dosis", sans-serif;
     font-size: 18px;
   }
+
+  .text1{
+    text-align: justify;
+    padding: 5%;
+    width: 25%;
+    height: 8%;
+    left: 4%;
+    border-radius: 10px;
+    position: absolute;
+    border-color: rgba(0,0,0,0.8);
+    align-items: center;
+    justify-content: center;
+    font-family: "Dosis", sans-serif;
+    font-size: 18px;
+  }
+
   .flecha{
     width: 11%;
     position: absolute;

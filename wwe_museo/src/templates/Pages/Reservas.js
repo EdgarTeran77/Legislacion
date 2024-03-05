@@ -7,40 +7,9 @@ import "../../styles/Reservas.css";
 
 const Reservas = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [reservationData, setReservationData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    selectedHour: null,
-  });
-  const [reservationMessage, setReservationMessage] = useState("");
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-  };
-
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setReservationData({ ...reservationData, [name]: value });
-  };
-
-  const handleReservation = () => {
-    // Verifica si todos los campos están completos
-    const { name, email, phone, selectedHour } = reservationData;
-    if (name && email && phone && selectedHour) {
-      // Realiza la reserva
-      if (selectedHour >= 9 && selectedHour < 16) {
-        setReservationMessage(
-          `¡Reserva exitosa para las ${selectedHour}:00!`
-        );
-      } else {
-        setReservationMessage(
-          `Lo sentimos, el museo está cerrado a las ${selectedHour}:00. Intente otra hora.`
-        );
-      }
-    } else {
-      setReservationMessage("Por favor complete todos los campos.");
-    }
   };
 
   return (
@@ -55,60 +24,17 @@ const Reservas = () => {
         </div>
       </header>
 
-      {/* Menú */}
       <Menu
         isMenuOpen={isMenuOpen}
         handleMenuClick={() => {}}
         toggleMenu={toggleMenu}
       />
-
-      <div className="reservation-section">
-        <h2>Reservas</h2>
-        <div className="reservation-form">
-          <input
-            type="text"
-            placeholder="Nombre"
-            name="name"
-            value={reservationData.name}
-            onChange={handleInputChange}
-          />
-          <input
-            type="email"
-            placeholder="Correo electrónico"
-            name="email"
-            value={reservationData.email}
-            onChange={handleInputChange}
-          />
-          <input
-            type="tel"
-            placeholder="Teléfono"
-            name="phone"
-            value={reservationData.phone}
-            onChange={handleInputChange}
-          />
-          <select
-            name="selectedHour"
-            value={reservationData.selectedHour}
-            onChange={(e) =>
-              setReservationData({
-                ...reservationData,
-                selectedHour: parseInt(e.target.value),
-              })
-            }
-          >
-            <option value="">Seleccione una hora</option>
-            {[9, 10, 11, 12, 13, 14, 15].map((hour) => (
-              <option key={hour} value={hour}>
-                {hour}:00
-              </option>
-            ))}
-          </select>
-          <button onClick={handleReservation}>Reservar</button>
-          {reservationMessage && (
-            <p className="reservation-message">{reservationMessage}</p>
-          )}
-        </div>
-      </div>
+      <iframe
+        src="https://forms.office.com/pages/responsepage.aspx?id=Ky6ljCAddEKaE7127MuB0d9MAdIJyGNLozG4vkCk3VRUMldHR1lUOFJRT1ZFWjY5WktQNzQ5S1lFMS4u"
+        width="100%"
+        height="1000px"
+        title="Reservas Form"
+      />
 
       <footer className="footer">
         <div className="contacto">
@@ -117,12 +43,11 @@ const Reservas = () => {
             <a href="www.facebook.com">
               <AiFillFacebook />
             </a>
-            {/* Resto de enlaces... */}
           </div>
           <div className="informacion">
-            <p>Correo electrónico: info@museociencias.com</p>
-            <p>Teléfono: +1234567890</p>
-            <p>Dirección: Av. Principal #123, Ciudad, País</p>
+            <p>Correo electrónico: museo.figempa@uce.edu.ec</p>
+            <p>Empresa: INGENIERIA EN GEOLOGIA MINAS PETROLEOS Y AMBIENTAL</p>
+            <p>Departamento: Museo</p>
           </div>
         </div>
       </footer>

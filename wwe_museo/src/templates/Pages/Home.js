@@ -88,7 +88,7 @@ const Home = () => {
       <h1 className="dosis-font">Información</h1>
       <section className="content">
         <h2 className="dosis-font1">Quienes somos</h2>
-        <div className="contenedor1">
+        <div className="contenedor3">
           <p>
             El Museo de Ciencias de la Tierra de la Universidad Central del
             Ecuador (UCE) es un espacio dedicado a la promoción de la enseñanza
@@ -97,6 +97,24 @@ const Home = () => {
             geológicos, así como con una serie de exposiciones interactivas que
             permiten a los visitantes aprender sobre la historia de la Tierra,
             los procesos geológicos y la importancia de los recursos naturales.
+          </p>
+        </div>
+      </section>
+      <section className="content">
+        <h2 className="dosis-fontmision">   Misión   </h2>
+        <div className="contenedor1">
+          <p>
+          Promover la enseñanza y el conocimiento de las ciencias de la tierra a
+           través de una colección de minerales, rocas, fósiles y otros materiales geológicos.
+          </p>
+        </div>
+      </section>
+      <section className="content">
+        <h2 className="dosis-fontvision">   Visión   </h2>
+        <div className="contenedor1">
+          <p>
+          Ser un referente nacional e internacional en la divulgación de las ciencias de la tierra, 
+          con un enfoque educativo e interactivo.
           </p>
         </div>
       </section>
@@ -186,9 +204,9 @@ const Home = () => {
             {/* Resto de enlaces... */}
           </div>
           <div className="informacion">
-            <p>Correo electrónico: info@museociencias.com</p>
-            <p>Teléfono: +1234567890</p>
-            <p>Dirección: Av. Principal #123, Ciudad, País</p>
+            <p>Correo electrónico: museo.figempa@uce.edu.ec</p>
+            <p>Empresa: INGENIERIA EN GEOLOGIA MINAS PETROLEOS Y AMBIENTAL</p>
+            <p>Departamento: Museo</p>
           </div>
         </div>
       </footer>
